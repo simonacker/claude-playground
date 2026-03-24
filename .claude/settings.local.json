@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start:*)",
+      "Bash(python:*)",
+      "Skill(update-config)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(git clone:*)",
+      "Bash(cp -r /tmp/excalidraw-diagram-skill .claude/skills/excalidraw-diagram)",
+      "Bash(rm -rf /tmp/excalidraw-diagram-skill)"
+    ]
+  }
+}
